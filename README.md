@@ -11,4 +11,5 @@ Wiz framework
 
 ## 創建項目
 ```bash
+composer create-project wiz/framework-standard-edition path 1.0.1
 ```
