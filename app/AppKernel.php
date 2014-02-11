@@ -29,15 +29,10 @@ class AppKernel extends Kernel
             /*
              * Wiz bundle
              */
-            new \Wiz\UserBundle\WizUserBundle(),
             new \Wiz\AdmintoolsBundle\WizAdmintoolsBundle(),
+            new \Wiz\UserBundle\WizUserBundle(),
             new \Wiz\CKEditorBundle\WizCKEditorBundle(),
-            new \Wiz\ToolsBundle\WizToolsBundle(),
-            new \Wiz\CmsBundle\WizCmsBundle(),
-            new \Wiz\FaqBundle\WizFaqBundle(),
-            new \Wiz\FrontendBundle\WizFrontendBundle(),
-            new \Wiz\RecruitBundle\WizRecruitBundle(),
-            new \Wiz\SubsiteBundle\WizSubsiteBundle()
+            new \Wiz\ToolsBundle\WizToolsBundle()
             /*
              * Project bundle
              */

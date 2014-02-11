@@ -1,8 +1,7 @@
 {
-    "name": "symfony/framework-standard-edition",
+    "name": "wiz/framework-standard-edition",
     "license": "MIT",
     "type": "project",
-    "description": "The \"Symfony Standard Edition\" distribution",
     "autoload": {
         "psr-0": {
             "": "src/"
@@ -27,12 +26,7 @@
         "sensio/framework-extra-bundle": "~3.0",
         "sensio/generator-bundle": "~2.3",
         "incenteev/composer-parameter-handler": "~2.0",
-        "wiz/admintools-bundle": "dev-master",
-        "wiz/cms-bundle": "dev-master",
-        "wiz/frontend-bundle": "dev-master",
-        "wiz/faq-bundle": "dev-master",
-        "wiz/recruit-bundle": "dev-master",
-        "wiz/subsite-bundle": "dev-master"
+        "wiz/admintools-bundle": "dev-master"
     },
     "scripts": {
         "post-install-cmd": [

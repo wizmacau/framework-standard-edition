@@ -14,22 +14,6 @@ wiz_user:
     resource: "@WizUserBundle/Resources/config/routing.yml"
     prefix:   /admintools
 
-wiz_cms:
-    resource: "@WizCmsBundle/Resources/config/routing.yml"
-    prefix:   /admintools
-
-wiz_recruit:
-    resource: "@WizRecruitBundle/Resources/config/routing.yml"
-    prefix:   /admintools
-
-wiz_subsite:
-    resource: "@WizSubsiteBundle/Resources/config/routing.yml"
-    prefix:   /admintools
-
-wiz_faq:
-    resource: "@WizFaqBundle/Resources/config/routing.yml"
-    prefix:   /admintools
-
 elfinder:
     resource: "@FMElfinderBundle/Resources/config/routing.yml"
 
