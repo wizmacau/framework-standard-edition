@@ -9,6 +9,8 @@ Wiz framework
 
 <a name="installation"></a>
 
+### 安裝
+
 #### 1) 創建項目
 
 ```bash
