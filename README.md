@@ -7,6 +7,10 @@ Wiz framework
 
 **Bundle開發文檔(編輯中)**
 
+* WizAdmintoolsBundle
+* WizCmsBundle
+* WizFrontendBundle
+
 <a name="installation"></a>
 
 ### 安裝
