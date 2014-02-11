@@ -1,0 +1,37 @@
+wiz_admintools:
+    resource: "@WizAdmintoolsBundle/Resources/config/routing.yml"
+    prefix:   /admintools
+
+fos_user_security:
+    resource: "@FOSUserBundle/Resources/config/routing/security.xml"
+    prefix:   /admintools
+
+fos_user_change_password:
+    resource: "@FOSUserBundle/Resources/config/routing/change_password.xml"
+    prefix:   /admintools
+
+wiz_user:
+    resource: "@WizUserBundle/Resources/config/routing.yml"
+    prefix:   /admintools
+
+wiz_cms:
+    resource: "@WizCmsBundle/Resources/config/routing.yml"
+    prefix:   /admintools
+
+wiz_recruit:
+    resource: "@WizRecruitBundle/Resources/config/routing.yml"
+    prefix:   /admintools
+
+wiz_subsite:
+    resource: "@WizSubsiteBundle/Resources/config/routing.yml"
+    prefix:   /admintools
+
+wiz_faq:
+    resource: "@WizFaqBundle/Resources/config/routing.yml"
+    prefix:   /admintools
+
+elfinder:
+    resource: "@FMElfinderBundle/Resources/config/routing.yml"
+
+uploadify:
+    resource: "@WizToolsBundle/Resources/config/uploadify.yml"

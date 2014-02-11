@@ -1,0 +1,18 @@
+parameters:
+    database_driver:   pdo_mysql
+    database_host:     127.0.0.1
+    database_port:     ~
+    database_name:     symfony
+    database_user:     ~
+    database_password: ~
+
+    redis_host:        redis://localhost
+
+    mailer_transport:  smtp
+    mailer_host:       127.0.0.1
+    mailer_user:       ~
+    mailer_password:   ~
+
+    locale:            zh_TW
+    locales:           [%locale%]
+    secret:            pG5cYW3gfuK7DEmsEkYKCyPv5BDz3ouX

@@ -1,0 +1,7 @@
+parameters:
+    admintools_config:
+        system_name: WIZ
+        system_description: WIZ
+
+    # List Config
+    admintools_pagination_num_per_page: 20

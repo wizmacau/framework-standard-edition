@@ -1,0 +1,59 @@
+# FOSUserBundle Configuration
+fos_user:
+    db_driver: orm
+    firewall_name: main
+    user_class: Wiz\UserBundle\Entity\FosUser
+    group:
+        form:
+            type: wizuserbundle_formtype_fosgrouptype
+        group_class: Wiz\UserBundle\Entity\FosGroup
+    registration:
+        form:
+            type: wizuserbundle_formtype_usertype
+
+# KnpMenuBundle Configuration
+knp_menu:
+    twig:
+        template: knp_menu.html.twig
+    templating: false
+    default_renderer: twig
+    providers:
+        builder_alias: true    # disable the builder-based provider
+        container_aware: true
+
+# KnpPaginatorBundle Configuration
+knp_paginator:
+    page_range: 5
+    default_options:
+        page_name: page
+        sort_field_name: sort
+        sort_direction_name: direction
+        distinct: true
+    template:
+        pagination: WizAdmintoolsBundle:Pagination:sliding.html.twig
+        sortable: WizAdmintoolsBundle:Pagination:sortable_link.html.twig
+
+# FMElfinderBundle Configuration
+fm_elfinder:
+    locale: %locale%
+    editor: ckeditor
+    showhidden: false
+    fullscreen: true
+    include_assets: true
+    compression: false
+    connector:
+        debug: false
+        roots:
+            uploads:
+                driver: wiztools.elfinder.driver
+                path: uploads/media
+                upload_allow: ['image/png', 'image/jpg', 'image/jpeg']
+                upload_deny: ['all']
+                upload_max_size: 5M
+
+# A2lixTranslationForm Configuration
+a2lix_translation_form:
+    locales: %locales%
+    default_required: false
+    manager_registry: doctrine
+    templating: "WizAdmintoolsBundle:Form:a2lix_translations_widget.html.twig"
