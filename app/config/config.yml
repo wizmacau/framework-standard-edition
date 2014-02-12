@@ -3,6 +3,7 @@ imports:
     - { resource: security.yml }
     - { resource: depend_bundle.yml }
     - { resource: admintools.yml }
+    - { resource: ../../vendor/knplabs/doctrine-behaviors/config/orm-services.yml }
 
 framework:
     #esi:             ~
