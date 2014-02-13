@@ -16,3 +16,5 @@ parameters:
     locale:            zh_TW
     locales:           [%locale%]
     secret:            pG5cYW3gfuK7DEmsEkYKCyPv5BDz3ouX
+    
+    google_spreadsheet_key: ~
