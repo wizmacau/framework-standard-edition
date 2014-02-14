@@ -85,6 +85,10 @@ snc_redis:
             type: predis
             alias: session
             dsn: %redis_host%/2
+        parameter:
+            type: predis
+            alias: parameter
+            dsn: %redis_host%/3
     session:
         prefix: ggct_session_
         client: session
