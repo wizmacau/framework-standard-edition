@@ -38,7 +38,7 @@ twig:
     globals:
         generator: "@wizadmintools.generator.memory"
         form_memory: "@wizadmintools.memory.form"
-        system_config:  %admintools_config%
+        system_config:  "@wizadmintools.memory.setting"
 
 # Assetic Configuration
 assetic:
