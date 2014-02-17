@@ -1,3 +1,9 @@
+elfinder:
+    resource: "@FMElfinderBundle/Resources/config/routing.yml"
+
+uploadify:
+    resource: "@WizToolsBundle/Resources/config/uploadify.yml"
+    
 wiz_admintools:
     resource: "@WizAdmintoolsBundle/Resources/config/routing.yml"
     prefix:   /admintools
@@ -13,9 +19,3 @@ fos_user_change_password:
 wiz_user:
     resource: "@WizUserBundle/Resources/config/routing.yml"
     prefix:   /admintools
-
-elfinder:
-    resource: "@FMElfinderBundle/Resources/config/routing.yml"
-
-uploadify:
-    resource: "@WizToolsBundle/Resources/config/uploadify.yml"
