@@ -37,15 +37,13 @@ composer create-project wiz/framework-standard-edition . -s dev
 
 ----------
 
-{
     "repositories": [
         {
             "type": "composer",
             "url": "http://packagist.wizmacau.com"
         }
     ]
-}
-
+    
 ----------
 
 [查看 WizCmsBundle 安裝文檔](https://github.com/wizmacau/framework-standard-edition/blob/master/app/Resources/doc/install/cms-bundle.md)
