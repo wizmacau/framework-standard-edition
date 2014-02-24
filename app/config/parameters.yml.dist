@@ -6,6 +6,8 @@ parameters:
     database_user:     ~
     database_password: ~
 
+    session_prefix:    framework_
+
     redis_host:        redis://localhost
 
     mailer_transport:  smtp
