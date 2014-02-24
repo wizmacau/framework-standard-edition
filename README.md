@@ -56,7 +56,11 @@ public function registerBundles()
 }
 ```
 
-某些Bundle可能需要額外配置或者加載路由，具體請參考對應Bundle的README.md文件。
+某些Bundle可能需要額外配置或者加載路由，具體請參考下面的安裝文檔。
+
+##### Wiz packagist bundle 安裝文檔
+
+[WizCmsBundle]()
 
 #### 3) 完成部署
 
