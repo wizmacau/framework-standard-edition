@@ -23,44 +23,11 @@ composer create-project wiz/framework-standard-edition . -s dev
 
 #### 2) 加載Bundle
 
-選擇所需Bundle,
+選擇所需Bundle，具體請參考下面的安裝文檔。
 
 https://packagist.wizmacau.com/
 
-例如選擇wiz/cms-bundle，添加到composer.json中，
-
-    "require" :  {
-        // ...
-        "wiz/cms-bundle":"dev-master",
-    }
-
-更新，
-
-```bash
-composer update wiz/cms-bundle
-```
-
-加載到AppKernel.php中，
-
-``` php
-<?php
-// app/AppKernel.php
-
-public function registerBundles()
-{
-    $bundles = array(
-        // ...
-        new Wiz\CmsBundle\WizCmsBundle()
-    );
-    // ...
-}
-```
-
-某些Bundle可能需要額外配置或者加載路由，具體請參考下面的安裝文檔。
-
-##### Wiz packagist bundle 安裝文檔
-
-[WizCmsBundle]()
+[查看 WizCmsBundle 安裝文檔](https://github.com/wizmacau/framework-standard-edition/blob/master/app/Resources/doc/cms-bundle.md)
 
 #### 3) 完成部署
 
