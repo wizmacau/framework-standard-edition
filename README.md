@@ -21,11 +21,9 @@ Wiz framework
 composer create-project wiz/framework-standard-edition . -s dev
 ```
 
-#### 2) 加載Bundle
+#### 2) 加載Bundle（https://packagist.wizmacau.com/）
 
 選擇所需Bundle，具體請參考下面的安裝文檔。
-
-https://packagist.wizmacau.com/
 
 [查看 WizCmsBundle 安裝文檔](https://github.com/wizmacau/framework-standard-edition/blob/master/app/Resources/doc/cms-bundle.md)
 
