@@ -25,7 +25,7 @@ composer create-project wiz/framework-standard-edition . -s dev
 
 選擇所需Bundle，具體請參考下面的安裝文檔。
 
-[查看 WizCmsBundle 安裝文檔](https://github.com/wizmacau/framework-standard-edition/blob/master/app/Resources/doc/cms-bundle.md)
+[查看 WizCmsBundle 安裝文檔](https://github.com/wizmacau/framework-standard-edition/blob/master/app/Resources/doc/install/cms-bundle.md)
 
 #### 3) 完成部署
 
