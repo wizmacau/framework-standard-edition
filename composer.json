@@ -27,8 +27,7 @@
         "sensio/generator-bundle": "~2.3",
         "incenteev/composer-parameter-handler": "~2.0",
         "wiz/admintools-bundle": "dev-master",
-        "wiz/cms-bundle": "dev-master",
-        "wiz/wechat-bundle": "dev-master"
+        "wiz/cms-bundle": "dev-master"
     },
     "scripts": {
         "post-install-cmd": [
