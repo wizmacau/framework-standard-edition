@@ -32,13 +32,7 @@ class AppKernel extends Kernel
             new \Wiz\AdmintoolsBundle\WizAdmintoolsBundle(),
             new \Wiz\UserBundle\WizUserBundle(),
             new \Wiz\CKEditorBundle\WizCKEditorBundle(),
-            new \Wiz\ToolsBundle\WizToolsBundle(),
-            new \Wiz\CmsBundle\WizCmsBundle(),
-            new \Wiz\FrontendBundle\WizFrontendBundle()
-            /*
-             * Project bundle
-             */,
-            new Wiz\WeChatBundle\WizWeChatBundle(),
+            new \Wiz\ToolsBundle\WizToolsBundle()
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
