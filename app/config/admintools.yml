@@ -1,7 +1,7 @@
 parameters:
     admintools_config:
-        system_name: 微信接口管理平台
-        system_description: 微信接口管理平台
+        system_name: WIZ
+        system_description: WIZ
 
     # List Config
     admintools_pagination_num_per_page: 20
