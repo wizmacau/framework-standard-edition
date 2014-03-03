@@ -1,6 +1,9 @@
 Validator
-=========
---
+=================
+
+Example,
+
+---
 **JSONFormat**
 ```yaml
 # .../Resources/config/validation.yml
