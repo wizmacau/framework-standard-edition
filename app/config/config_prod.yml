@@ -24,12 +24,12 @@ snc_redis:
         metadata_cache:
             client: doctrine
             entity_manager: default
-            document_manager: default
+            namespace: %project_prefix%
         result_cache:
             client: doctrine
             entity_manager: default
-            document_manager: default
+            namespace: %project_prefix%
         query_cache:
             client: doctrine
             entity_manager: default
-            document_manager: default
+            namespace: %project_prefix%
