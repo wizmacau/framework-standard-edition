@@ -33,7 +33,7 @@ Wiz\CmsBundle\Entity\News:
                     type: offline
 ```
 
-**注意:** 啟用此功能需要將 LifecycleableFilter 加入到Doctrine配置的Filters選項中。
+> **注意:** 啟用此功能需要將 LifecycleableFilter 加入到Doctrine配置的Filters選項中。
 
 在 app/config/config.yml 中加入
 
