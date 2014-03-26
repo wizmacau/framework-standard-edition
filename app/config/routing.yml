@@ -1,26 +1,5 @@
-wiz_we_chat_api:
-    resource: "@WizWeChatBundle/Resources/config/api.yml"
-
-elfinder:
-    resource: "@FMElfinderBundle/Resources/config/routing.yml"
-
-uploadify:
-    resource: "@WizToolsBundle/Resources/config/uploadify.yml"
-    
 wiz_admintools:
     resource: "@WizAdmintoolsBundle/Resources/config/routing.yml"
-    prefix:   /admintools
-
-wiz_cms:
-    resource: "@WizCmsBundle/Resources/config/routing.yml"
-    prefix:   /admintools
-
-wiz_we_chat:
-    resource: "@WizWeChatBundle/Resources/config/routing.yml"
-    prefix:   /admintools
-
-fos_user_security:
-    resource: "@FOSUserBundle/Resources/config/routing/security.xml"
     prefix:   /admintools
 
 fos_user_change_password:
@@ -30,3 +9,8 @@ fos_user_change_password:
 wiz_user:
     resource: "@WizUserBundle/Resources/config/routing.yml"
     prefix:   /admintools
+
+# Cms extra bundle
+wiz_cms_extra:
+    resource: .
+    type: extra
