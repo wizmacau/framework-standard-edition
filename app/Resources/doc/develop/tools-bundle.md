@@ -56,7 +56,7 @@ doctrine:
 <?php
 ...
 $em = $this->container->get('doctrine')->getManager();
-$em->getFilters()->disable("locale");
+$em->getFilters()->disable("lifecycle");
 ...
 ?>
 ```
