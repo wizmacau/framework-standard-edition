@@ -2,7 +2,7 @@
 
 ## Doctrine2 behavior extension
 
-### Lifecycleable
+### 1）Lifecycleable
 
 yaml配置文件實例
 
