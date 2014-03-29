@@ -22,3 +22,8 @@ parameters:
     project_prefix:    wiz_
 
     google_spreadsheet_key: ~
+
+    httpsqs_host: 127.0.0.1
+    httpsqs_port: 1218
+    httpsqs_auth: ~
+    httpsqs_charset: utf-8
