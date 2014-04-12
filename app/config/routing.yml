@@ -14,3 +14,9 @@ wiz_user:
 wiz_cms_extra:
     resource: .
     type: extra
+
+elfinder:
+    resource: "@FMElfinderBundle/Resources/config/routing.yml"
+
+uploadify:
+    resource: "@WizToolsBundle/Resources/config/uploadify.yml"
