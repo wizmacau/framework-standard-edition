@@ -23,7 +23,7 @@ knp_menu:
 
 # KnpPaginatorBundle Configuration
 knp_paginator:
-    page_range: 5
+    page_range: 10
     default_options:
         page_name: page
         sort_field_name: sort
