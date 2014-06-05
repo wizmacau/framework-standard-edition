@@ -3,6 +3,7 @@
     "version": "0.1.0",
     "dependencies": {
         "jquery": "1.9.1",
-        "multiselect": "0.9.11"
+        "multiselect": "0.9.11",
+        "jquery-validation": "~1.12.0"
     }
 }
