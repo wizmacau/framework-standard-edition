@@ -12,6 +12,9 @@ data/translations/*
 web/assetic/*
 web/js/*
 web/css/*
+web/test/*
+web/static/*
+web/bower/*
 
 # Configuration files
 app/config/parameters.yml

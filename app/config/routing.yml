@@ -17,6 +17,9 @@ wiz_cms_extra:
 
 elfinder:
     resource: "@FMElfinderBundle/Resources/config/routing.yml"
+    prefix: /admintools
 
-uploadify:
-    resource: "@WizToolsBundle/Resources/config/uploadify.yml"
+upload_file:
+    resource: "@WizToolsBundle/Resources/config/upload_file.yml"
+    prefix: /admintools
+

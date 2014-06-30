@@ -9,6 +9,13 @@
     },
     "repositories": [
         {
+            "packagist": false
+        },
+        {
+            "type": "composer",
+            "url" : "http://composer-mirror.tiger.wizmacau.com"
+        },
+        {
             "type": "composer",
             "url": "http://packagist.wizmacau.com"
         }
